@@ -1,6 +1,7 @@
 import { Plugin, PluginBuild } from 'esbuild';
 import shell from 'shelljs';
-import { name } from '../package.json';
+
+const name = 'esbuild-plugin-shelljs';
 
 
 export const shellJsPlugin: Plugin = {

@@ -1,6 +1,6 @@
 {
   "name": "esbuild-plugin-shelljs",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "description": "Patch at build-time the shelljs package to make it compatible with esbuild",
   "main": "build/index.js",
   "scripts": {
@@ -24,6 +24,9 @@
     "patch-package": "^8.0.0",
     "shelljs": "^0.8.5",
     "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "patch-package": "^8.0.0"
   },
   "peerDependencies": {
     "shelljs": "^0.8.5",
